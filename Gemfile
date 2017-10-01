@@ -4,17 +4,17 @@ gem 'rails', '3.2.21'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'mysql2'
 group :development do
   gem 'sqlite3'
   gem 'pry-rails'
   gem 'annotate'
-  gem 'better_errors'
+  # gem 'better_errors'
   gem 'binding_of_caller'
 end
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
   gem 'thin'
   gem 'rails_12factor'
 end
@@ -49,4 +49,4 @@ gem 'youtube_it', '~> 2.4.0'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
